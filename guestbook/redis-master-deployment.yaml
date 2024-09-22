@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
 - name: redis
-  image: redis:6.2  # or just image: redis
+  image: redis: lastest  # or just image: redis
         resources:
           requests:
             cpu: 100m
