@@ -17,8 +17,8 @@ spec:
         tier: backend
     spec:
       containers:
-      - name: master
-        image: registry.k8s.io/redis:e2e  # or just image: redis
+      - name: redis
+        image:redis:lastest  # or just image: redis
         resources:
           requests:
             cpu: 100m
